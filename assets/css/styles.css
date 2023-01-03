@@ -1,0 +1,392 @@
+@import url("https://fonts.googleapis.com/css2?family=Wallpoet&display=swap");
+.ads {
+  text-align: center !important;
+  margin: 5px;
+}
+.left-ads {
+  text-align: right;
+  margin: 5px 0px 5px 0px;
+}
+.right-ads {
+  text-align: left;
+  margin: 5px 0px 5px 0px;
+}
+.grecaptcha-badge {
+  visibility: hidden;
+}
+.link-block {
+  max-width: 80%;
+  border-radius: 5px 5px 5px 5px;
+  padding: 10px;
+  background-color: #ffffff;
+  margin: 5px auto;
+  text-align: center;
+}
+.link-info {
+  word-wrap: break-word;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 5px;
+}
+.link-name {
+  display: inline;
+  font-weight: 700;
+  color: #2bbbad;
+}
+.link-rmn {
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 50% 50% 50% 50%;
+  border: 2px solid green;
+  padding: 5px;
+}
+.antibotlinks {
+  display: inline-block;
+}
+.atb {
+  display: block;
+  text-align: center;
+}
+.claim-button {
+  max-width: 50%;
+  margin: 0px auto !important;
+}
+.ptc-header {
+  background-color: #172b4d;
+  padding: 20px;
+  height: 70px;
+  max-height: 70px;
+}
+
+.username-rank {
+  font-weight: bold;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
+    0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+.media-body {
+  word-break: break-all;
+}
+.feature-image {
+  max-width: 100px;
+}
+.currency-dashboard {
+  max-width: 25px;
+}
+
+.feature-image {
+  max-width: 65px;
+}
+
+.lottery-amount {
+  max-width: 50%;
+  margin: 3px auto;
+}
+
+vie::before {
+  content: "Lvl ";
+  font-size: 12px;
+}
+vie::after {
+  content: attr(level);
+  font-size: 12px;
+}
+vie {
+  font-family: Poppins, sans-serif !important;
+  border-radius: 3px 3px 3px 3px;
+  border: 1px solid #aeac9a;
+  padding: 1px 3px 1px 3px;
+  font-weight: bold;
+  margin-left: 6px;
+  color: #957047;
+}
+
+admin::before {
+  color: #9f87ba;
+  font-family: Poppins, sans-serif !important;
+  content: "Admin";
+}
+admin::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f005";
+  margin-left: 2px;
+  color: #a54000 !important;
+}
+admin {
+  font-family: Poppins, sans-serif !important;
+  border-radius: 3px 3px 3px 3px;
+  border: 2px solid #aeac9a;
+  padding: 1px 3px 1px 3px;
+  font-weight: bold;
+  margin-left: 6px;
+}
+
+.icon::before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.admin-ip-address {
+  font-size: 10px;
+}
+
+th > .btn {
+  margin: 2px;
+}
+
+.noty {
+  position: relative;
+  height: 35px;
+  overflow: hidden;
+  color: #476a71;
+}
+.noty:hover strong {
+  animation-play-state: paused;
+}
+.noty strong {
+  position: absolute;
+  font-weight: bold;
+  left: 0;
+  top: 5px;
+  width: 100%;
+  animation: slide 40s infinite cubic-bezier(0.39, 0.96, 1, 1);
+}
+@keyframes slide {
+  0% {
+    transform: translate(78%, 16%);
+  }
+  100% {
+    transform: translate(-78%, 16%);
+  }
+}
+
+.odometer {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.odometer.odometer-auto-theme,
+.odometer.odometer-theme-digital {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  position: relative;
+}
+.odometer.odometer-auto-theme .odometer-digit,
+.odometer.odometer-theme-digital .odometer-digit {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  position: relative;
+}
+.odometer.odometer-auto-theme .odometer-digit .odometer-digit-spacer,
+.odometer.odometer-theme-digital .odometer-digit .odometer-digit-spacer {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  visibility: hidden;
+}
+.odometer.odometer-auto-theme .odometer-digit .odometer-digit-inner,
+.odometer.odometer-theme-digital .odometer-digit .odometer-digit-inner {
+  text-align: left;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+.odometer.odometer-auto-theme .odometer-digit .odometer-ribbon,
+.odometer.odometer-theme-digital .odometer-digit .odometer-ribbon {
+  display: block;
+}
+.odometer.odometer-auto-theme .odometer-digit .odometer-ribbon-inner,
+.odometer.odometer-theme-digital .odometer-digit .odometer-ribbon-inner {
+  display: block;
+  -webkit-backface-visibility: hidden;
+}
+.odometer.odometer-auto-theme .odometer-digit .odometer-value,
+.odometer.odometer-theme-digital .odometer-digit .odometer-value {
+  display: block;
+  -webkit-transform: translateZ(0);
+}
+.odometer.odometer-auto-theme
+  .odometer-digit
+  .odometer-value.odometer-last-value,
+.odometer.odometer-theme-digital
+  .odometer-digit
+  .odometer-value.odometer-last-value {
+  position: absolute;
+}
+.odometer.odometer-auto-theme.odometer-animating-up .odometer-ribbon-inner,
+.odometer.odometer-theme-digital.odometer-animating-up .odometer-ribbon-inner {
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
+}
+.odometer.odometer-auto-theme.odometer-animating-up.odometer-animating
+  .odometer-ribbon-inner,
+.odometer.odometer-theme-digital.odometer-animating-up.odometer-animating
+  .odometer-ribbon-inner {
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  -o-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+.odometer.odometer-auto-theme.odometer-animating-down .odometer-ribbon-inner,
+.odometer.odometer-theme-digital.odometer-animating-down
+  .odometer-ribbon-inner {
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  -o-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+.odometer.odometer-auto-theme.odometer-animating-down.odometer-animating
+  .odometer-ribbon-inner,
+.odometer.odometer-theme-digital.odometer-animating-down.odometer-animating
+  .odometer-ribbon-inner {
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  transform: translateY(0);
+}
+
+.odometer.odometer-auto-theme,
+.odometer.odometer-theme-digital {
+  background-size: 100%;
+  font-family: "Wallpoet", monospace;
+  padding: 0 0.2em;
+  line-height: 1.1em;
+}
+.odometer.odometer-auto-theme .odometer-digit + .odometer-digit,
+.odometer.odometer-theme-digital .odometer-digit + .odometer-digit {
+  margin-left: 0.1em;
+}
+
+/* #coinflipflip {
+  background: url("../images/flip/bitcoin.png") no-repeat center;
+  height: 150px;
+} */
+
+#coinflip {
+  position: relative;
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+}
+#coinflip div {
+  width: 100%;
+  height: 100%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-box-shadow: inset 0 0 45px rgba(255, 255, 255, 0.3),
+    0 12px 20px -10px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: inset 0 0 45px rgba(255, 255, 255, 0.3),
+    0 12px 20px -10px rgba(0, 0, 0, 0.4);
+  box-shadow: inset 0 0 45px rgba(255, 255, 255, 0.3),
+    0 12px 20px -10px rgba(0, 0, 0, 0.4);
+}
+#bitcoin {
+  background: url(../images/flip/bitcoin.png) no-repeat center;
+  background-size: contain;
+  height: 200px;
+}
+#ethereum {
+  background: url(../images/flip/ethereum.png) no-repeat center;
+  background-size: contain;
+  height: 200px;
+}
+
+#coinflip {
+  transition: -webkit-transform 1s ease-in;
+  -webkit-transform-style: preserve-3d;
+}
+#coinflip div {
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+}
+#bitcoin {
+  z-index: 100;
+}
+#ethereum {
+  -webkit-transform: rotateY(-180deg);
+}
+
+#coinflip.heads {
+  -webkit-animation: flipHeads 3s cubic-bezier(0.39, 0.96, 1, 1) forwards;
+  -moz-animation: flipHeads 3s cubic-bezier(0.39, 0.96, 1, 1) forwards;
+  -o-animation: flipHeads 3s cubic-bezier(0.39, 0.96, 1, 1) forwards;
+  animation: flipHeads 3s cubic-bezier(0.39, 0.96, 1, 1) forwards;
+}
+#coinflip.tails {
+  -webkit-animation: flipTails 3s cubic-bezier(0.39, 0.96, 1, 1) forwards;
+  -moz-animation: flipTails 3s cubic-bezier(0.39, 0.96, 1, 1) forwards;
+  -o-animation: flipTails 3s cubic-bezier(0.39, 0.96, 1, 1) forwards;
+  animation: flipTails 3s cubic-bezier(0.39, 0.96, 1, 1) forwards;
+}
+#coinflip.wait {
+  -webkit-animation: flipWait 300s cubic-bezier(0.39, 0.96, 1, 1) forwards;
+  -moz-animation: flipWait 300s cubic-bezier(0.39, 0.96, 1, 1) forwards;
+  -o-animation: flipWait 300s cubic-bezier(0.39, 0.96, 1, 1) forwards;
+  animation: flipWait 300s cubic-bezier(0.39, 0.96, 1, 1) forwards;
+}
+
+@-webkit-keyframes flipWait {
+  from {
+    -webkit-transform: rotateY(0);
+    -moz-transform: rotateY(0);
+    transform: rotateY(0);
+  }
+  to {
+    -webkit-transform: rotateY(180000deg);
+    -moz-transform: rotateY(180000deg);
+    transform: rotateY(180000deg);
+  }
+}
+
+@-webkit-keyframes flipHeads {
+  from {
+    -webkit-transform: rotateY(0);
+    -moz-transform: rotateY(0);
+    transform: rotateY(0);
+  }
+  to {
+    -webkit-transform: rotateY(1800deg);
+    -moz-transform: rotateY(1800deg);
+    transform: rotateY(1800deg);
+  }
+}
+@-webkit-keyframes flipTails {
+  from {
+    -webkit-transform: rotateY(0);
+    -moz-transform: rotateY(0);
+    transform: rotateY(0);
+  }
+  to {
+    -webkit-transform: rotateY(1980deg);
+    -moz-transform: rotateY(1980deg);
+    transform: rotateY(1980deg);
+  }
+}
